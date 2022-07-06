@@ -20,7 +20,7 @@ const SiteRouter = () =>{
             <>
             <Header/>
             <Routes>
-            <Route path="*" element={<HomePage/>}  />
+            
             <Route path="/home" element={<HomePage/>}  />
             {/* <Route path="/domains #2" element={<HomePage/>}  /> */}
             {/* <Route path="/services #3" element={<ContuctUsPage/>}  /> */}
@@ -32,6 +32,7 @@ const SiteRouter = () =>{
             <Route path={'/portpholio/:id'} element={<PortpholioItemmy />}/>
             <Route path={'/careers/:id/*'} element={<CareersItems />}/>
             <Route path={'/blog/:id'} element={<BlogItems />}/>
+                    <Route path="*" element={<HomePage/>}  />
             </Routes>
             </>
         );
