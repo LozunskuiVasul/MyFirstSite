@@ -116,12 +116,12 @@ self.__precacheManifest = [
     "url": "/MyFirstSite/static/media/revicons.04eb8fc5.woff"
   },
   {
-    "revision": "17629a5dfe0d3c3946cf401e1895f091",
-    "url": "/MyFirstSite/static/media/revicons.17629a5d.ttf"
-  },
-  {
     "revision": "2feb69ccb596730c72920c6ba3e37ef8",
     "url": "/MyFirstSite/static/media/revicons.2feb69cc.eot"
+  },
+  {
+    "revision": "17629a5dfe0d3c3946cf401e1895f091",
+    "url": "/MyFirstSite/static/media/revicons.17629a5d.ttf"
   },
   {
     "revision": "7976ca76c8d527a7d358a77ab0ecf949",
