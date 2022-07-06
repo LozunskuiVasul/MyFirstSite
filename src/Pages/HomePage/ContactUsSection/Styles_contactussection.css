@@ -1,0 +1,90 @@
+/* BODY Content Contacts*/
+.contacts{
+    height: 690px;
+    background: #FFFFFF;    
+    padding-top: 100px;
+  }
+  .form-contactus{
+    max-width: 960px;
+    margin:0 auto;
+  }
+  .title-contacts{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 123.4%;
+      color: #0E100F;  
+  }
+  .text-contacts{
+      color: #4F4F4F;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 123.4%;
+      padding-top: 24px; 
+  }
+  .content-contacts{
+    padding-top: 80px;
+  }
+  .flex-form-contacts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+  }
+  @media (max-width: 764px){
+    .flex-form-contacts{
+        margin:10px;
+    }
+    .title-contacts{
+      text-align: center;
+    }
+    .text-contacts{
+      text-align: center;
+    }
+    .flex-form-contacts{
+      justify-content: center;
+    }
+  }
+  .full-name-contacts,
+  .content-form-contacts{
+        width: 360px;
+      height: 48px;
+      border: 3px solid #00C0DC;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 123.4%;
+      color: #828282;
+      flex: 0 0 auto;
+  }
+  .message-form-contacts{
+    display: inline-block;
+      margin-top: 20px;
+      width:  100%;
+      height: 100px;
+      border: 3px solid #00C0DC;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 123.4%;
+  }
+  .button-container-sendm{
+    display: flex;
+   flex: 0 0 uato;
+  }
+  .send-message{
+      margin:0 auto;
+      margin-top: 48px;
+      width: 144px;
+      height: 48px;
+      border: 3px solid #00C0DC;
+  }
+  .send-message:hover{
+    background-color: #828282;
+  }
+  /* END BODY Content Contacts*/

@@ -1,0 +1,12 @@
+.social-icons{
+    width: 320px;
+}
+.flex-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+li{
+    list-style: none;
+}
+
